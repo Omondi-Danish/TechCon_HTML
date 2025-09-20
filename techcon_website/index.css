@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: "Sugoe UI" sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+header {
+  background-color: #111;
+  color: #fff;
+  padding: 2rem;
+  text-align: center;
+}
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin-top: 1rem;
+}
+nav ul li {
+  margin: 0 1rem;
+}
+nav ul li a {
+  color: #ffd700;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav ul li a:hover {
+  text-decoration: underline;
+}
+main {
+  padding: 2rem;
+  max-width: 900px;
+  margin: auto;
+}
+main h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.video-container {
+  margin-top: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10 rgba(0, 0, 0, 0.1);
+}
+footer {
+  background-color: #111;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
